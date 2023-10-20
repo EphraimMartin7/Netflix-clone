@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbarNav{
+   justify-content: end;
+}
+.navbar{
+    background-color: transparent;
+    color: white;
+    margin-top:-24px ;
+}
+.language{
+    width: 120px;
+    height: 32px;
+    border-radius: 4px;
+margin-right: 10px ;
+color: white;
+font-family: "poppins";
+    background-color: rgba(14, 11, 11, 0.705);
+    border: 1px solid rgb(129, 129, 129);
+}
+.navbar-toggler{
+   background-color: rgba(231, 231, 231, 0.712);
+}
+
+.signin{
+    width: 100px;
+    height: 32px;
+    border-radius: 6px;
+    color: white;
+    font-family: "poppins";
+    background-color: rgb(229,9,20);
+    border: none;
+   
+}
+.signin:hover{
+    
+    background-color: rgba(212, 15, 25, 0.877);
+    border: 1px solid white;
+  transition: 30ms;
+}
+.bg{
+    background-image: url('img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar-brand img{
+    width: 180px;
+    height: 100px;
+}
+.pd h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+.pd h3{
+    
+    font-weight: 400;
+    padding: 10px;
+}
+.pd{
+    margin-top: 50px;
+   
+}
+.pd p{
+  font-size: 20px;
+}
+.ma{
+    background-color: rgb(12, 12, 12);
+}
+.m{ 
+    background-color: rgb(12, 12, 12);
+  
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.d{
+    width: 100%;
+    height: 500px;
+}
+.sg input[type="submit"]{
+    background-color: rgb(243, 30, 30);
+    color: white;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    
+}
+.accordion-body,.accordion-button{
+    background-color: black;
+    color: white;
+    
+    border: 1px solid white;
+    
+}
+
+.accordion-item{
+    margin-bottom: 15px;
+   
+}
+
